@@ -91,7 +91,7 @@ class TranslateForm extends React.Component {
 
     submitForm(event, text) {
         event.preventDefault();
-        const apiKey    = '01002cf6709e46fcacb2100839663db5';
+        const apiKey    = 'ENTER YOUR MICROSOFT TEXT TRANSLATE API KEY HERE!';
         const to        = this.state.to;
         const from      = this.state.from;
         if (to === from) {
