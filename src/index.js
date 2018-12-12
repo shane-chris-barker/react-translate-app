@@ -36,7 +36,7 @@ class MainBody extends React.Component {
             <div className="body col-10 offset-1 text-center">
                 <p>
 
-                    Hi! This app is nothing special so don't get excited. It is purley the result of a Sunday afternoon
+                    Hi! This app is nothing special so no need to get excited. It is purley the result of a Sunday afternoon
                     with not much to do. The football wasn't on till late afternoon so I decided to have a go at learning
                     React.js
                 </p>
