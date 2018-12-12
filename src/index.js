@@ -37,7 +37,7 @@ class MainBody extends React.Component {
                 <p>
 
                     Hi! This app is nothing special so no need to get excited. It is purley the result of a Sunday afternoon
-                    with not much to do. The football wasn't on till late afternoon so I decided to have a go at learning
+                    with not much to do. The football was not on till late afternoon so I decided to have a go at learning
                     React.js
                 </p>
             </div>
