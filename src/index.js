@@ -22,7 +22,7 @@ class SiteHeader extends React.Component {
     render() {
         return (
             <div className='siteHeader text-center'>
-                <h1>Welcome to Shane's Translator</h1>
+                <h1>Welcome to Shanes Translator</h1>
                 <h5>A simple little React.js app for translating text using the Microsoft Text Translate API</h5>
                 <hr/>
             </div>
@@ -95,9 +95,9 @@ class TranslateForm extends React.Component {
         const to        = this.state.to;
         const from      = this.state.from;
         if (to === from) {
-            alert('Really? The answer is '+ this.state.text)
+            alert("Really? The answer is "+ this.state.text)
         } else if (this.state.text === null) {
-            alert('We need some text to work with please :)');
+            alert("We need some text to work with please :)");
         }
         else {
             const endpoint  = 'https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&to='+to+'&from='+from;
